@@ -10,7 +10,7 @@ https://github.com/theres1/Project-Timer
 # 使用方法
 タイマーは、トップバーの右側に表示されます。30秒以上の非アクティブ時間は、プロジェクト時間にカウントされません。
 
-#注意事項
+# 注意事項
 オリジナルアドオンと併用するとバグります。
 自分のプログラミング能力がうんちなので、もしこのコードを改善できる方いたらお願いします。
 累計時間は"C:\Users\(username)\AppData\Roaming\Blender Foundation\Blender\time.txt"に保存されます。これを消すと時間が初期化されます。
