@@ -68,7 +68,7 @@ def projectTimerUpdate(scene):
 def projectTimerSave(scene):
     projectTimerUpdate(scene)
     username = getpass.getuser()
-    txtpass3 = "C:/Users/" + username + "/AppData/Roaming/Blender Foundation/Blender/delta.txt"
+    txtpass3 = "C:/Users/" + username + "/AppData/Roaming/Blender Foundation/Blender/time.txt"
     with open(txtpass3,"w") as f:
             f.write(str(bpy.projectTime))    
     print('Project Time saved', bpy.projectTime)
@@ -77,7 +77,7 @@ def projectTimerSave(scene):
 def projectTimerLoad(scene):
     
     username = getpass.getuser()
-    txtpass3 = "C:/Users/" + username + "/AppData/Roaming/Blender Foundation/Blender/delta.txt"
+    txtpass3 = "C:/Users/" + username + "/AppData/Roaming/Blender Foundation/Blender/time.txt"
     try:
         with open(txtpass3,"r") as f:
             t2 = f.read()
