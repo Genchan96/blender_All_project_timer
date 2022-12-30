@@ -19,6 +19,8 @@ https://github.com/theres1/Project-Timer
 
 自分のプログラミング能力がうんちなので、もしこのコードを改善できる方いたらお願いします。
 
+Windows版のみ対応です
+
 累計時間は"C:\Users\(username)\AppData\Roaming\Blender Foundation\Blender\time.txt"に保存されます。これを消すと時間が初期化されます。
 
 テキストエディタでのテキストファイルの編集など、一部のアクティビティが検出されない場合があります。
